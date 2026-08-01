@@ -2,10 +2,10 @@
 import sys
 import os
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from models import RouterConfig, BackendConfig, RouteRule
-from router import RouterEngine
+from src.models import RouterConfig, BackendConfig, RouteRule
+from src.router import RouterEngine
 
 
 def test_default_config():
