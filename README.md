@@ -1,5 +1,8 @@
 # Model Router · 多模型路由代理
 
+![License](https://img.shields.io/badge/license-MIT-green) ![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![GitHub stars](https://img.shields.io/github/stars/wholegale39/model-router)
+
+
 OpenAI 兼容 API 代理——根据规则自动将请求路由到不同后端模型。支持 DeepSeek、OpenAI、OpenRouter，以及任意 OpenAI 兼容服务。
 
 ## 为什么做这个？
